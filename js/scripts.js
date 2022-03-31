@@ -379,6 +379,8 @@ function initOutdoor() {
             left: "0"
         }, 500);
     }
+
+    $(window).load(showHidDes());
     $(".show-hid-content").on("click", function() {
         if ($(this).hasClass("ishid")) showHidDes(); else hideHidDes();
     });
